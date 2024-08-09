@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: lightblue;
+        }
+        .grid{
+            display:grid;
+            grid-template-columns:100px 100px;
+            grid-template-rows:100px 100px;
+            border:1px;
+            margin:50px;
+            padding:30px;
+        }
+        #five
+        {
+            grid-row:span 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div id="one"><img src="img/n1.png" height="150px" width="200px"></div>
+        <div id="two"><img src="img/n2.png" height="150px" width="200px"></div>
+        <div id="three"><img src="img/n3.png" height="150px" width="200px"></div>
+        <div id="four"><img src="img/n4.png" height="150px" width="200px"></div>
+        <div id="five"><img src="img/n5.png" height="150px" width="300px"></div>
+    </div>
+</body>
+</html>
